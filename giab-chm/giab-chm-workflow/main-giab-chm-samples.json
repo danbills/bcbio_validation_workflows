@@ -22,11 +22,11 @@
     "config__algorithm__coverage": [
         {
             "class": "File",
-            "path": "../biodata/regions/Exome-AZ_V2_pluschr20-hg38.bed"
+            "path": "gs://cromwell_test_bucket/biodata/regions/Exome-AZ_V2_pluschr20-hg38.bed"
         },
         {
             "class": "File",
-            "path": "../biodata/regions/Exome-AZ_V2_pluschr20-hg38.bed"
+            "path": "gs://cromwell_test_bucket/biodata/regions/Exome-AZ_V2_pluschr20-hg38.bed"
         }
     ],
     "config__algorithm__coverage_interval": [
@@ -96,21 +96,21 @@
     "config__algorithm__validate": [
         {
             "class": "File",
-            "path": "../biodata/collections/hg38/validation/giab-NA12878/truth_small_variants.vcf.gz",
+            "path": "gs://cromwell_test_bucket/biodata/collections/hg38/validation/giab-NA12878/truth_small_variants.vcf.gz",
             "secondaryFiles": [
                 {
                     "class": "File",
-                    "path": "../biodata/collections/hg38/validation/giab-NA12878/truth_small_variants.vcf.gz.tbi"
+                    "path": "gs://cromwell_test_bucket/biodata/collections/hg38/validation/giab-NA12878/truth_small_variants.vcf.gz.tbi"
                 }
             ]
         },
         {
             "class": "File",
-            "path": "../biodata/chm/chm-hg38.vcf.gz",
+            "path": "gs://cromwell_test_bucket/biodata/chm/chm-hg38.vcf.gz",
             "secondaryFiles": [
                 {
                     "class": "File",
-                    "path": "../biodata/chm/chm-hg38.vcf.gz.tbi"
+                    "path": "gs://cromwell_test_bucket/biodata/chm/chm-hg38.vcf.gz.tbi"
                 }
             ]
         }
@@ -118,15 +118,15 @@
     "config__algorithm__validate_regions": [
         {
             "class": "File",
-            "path": "../biodata/collections/hg38/validation/giab-NA12878/truth_regions.bed"
+            "path": "gs://cromwell_test_bucket/biodata/collections/hg38/validation/giab-NA12878/truth_regions.bed"
         },
         {
             "class": "File",
-            "path": "../biodata/chm/chm-hg38-regions.bed.gz",
+            "path": "gs://cromwell_test_bucket/biodata/chm/chm-hg38-regions.bed.gz",
             "secondaryFiles": [
                 {
                     "class": "File",
-                    "path": "../biodata/chm/chm-hg38-regions.bed.gz.tbi"
+                    "path": "gs://cromwell_test_bucket/biodata/chm/chm-hg38-regions.bed.gz.tbi"
                 }
             ]
         }
@@ -134,11 +134,11 @@
     "config__algorithm__variant_regions": [
         {
             "class": "File",
-            "path": "../biodata/regions/Exome-AZ_V2_pluschr20-hg38.bed"
+            "path": "gs://cromwell_test_bucket/biodata/regions/Exome-AZ_V2_pluschr20-hg38.bed"
         },
         {
             "class": "File",
-            "path": "../biodata/regions/Exome-AZ_V2_pluschr20-hg38.bed"
+            "path": "gs://cromwell_test_bucket/biodata/regions/Exome-AZ_V2_pluschr20-hg38.bed"
         }
     ],
     "config__algorithm__variantcaller": [
@@ -163,21 +163,21 @@
         [
             {
                 "class": "File",
-                "path": "../biodata/giab/na12878/NA12878_R1.fq.gz",
+                "path": "gs://cromwell_test_bucket/biodata/giab/na12878/NA12878_R1.fq.gz",
                 "secondaryFiles": [
                     {
                         "class": "File",
-                        "path": "../biodata/giab/na12878/NA12878_R1.fq.gz.gbi"
+                        "path": "gs://cromwell_test_bucket/biodata/giab/na12878/NA12878_R1.fq.gz.gbi"
                     }
                 ]
             },
             {
                 "class": "File",
-                "path": "../biodata/giab/na12878/NA12878_R2.fq.gz",
+                "path": "gs://cromwell_test_bucket/biodata/giab/na12878/NA12878_R2.fq.gz",
                 "secondaryFiles": [
                     {
                         "class": "File",
-                        "path": "../biodata/giab/na12878/NA12878_R2.fq.gz.gbi"
+                        "path": "gs://cromwell_test_bucket/biodata/giab/na12878/NA12878_R2.fq.gz.gbi"
                     }
                 ]
             }
@@ -185,21 +185,21 @@
         [
             {
                 "class": "File",
-                "path": "../biodata/chm/CHM1_CHM13_R1.fq.gz",
+                "path": "gs://cromwell_test_bucket/biodata/chm/CHM1_CHM13_R1.fq.gz",
                 "secondaryFiles": [
                     {
                         "class": "File",
-                        "path": "../biodata/chm/CHM1_CHM13_R1.fq.gz.gbi"
+                        "path": "gs://cromwell_test_bucket/biodata/chm/CHM1_CHM13_R1.fq.gz.gbi"
                     }
                 ]
             },
             {
                 "class": "File",
-                "path": "../biodata/chm/CHM1_CHM13_R2.fq.gz",
+                "path": "gs://cromwell_test_bucket/biodata/chm/CHM1_CHM13_R2.fq.gz",
                 "secondaryFiles": [
                     {
                         "class": "File",
-                        "path": "../biodata/chm/CHM1_CHM13_R2.fq.gz.gbi"
+                        "path": "gs://cromwell_test_bucket/biodata/chm/CHM1_CHM13_R2.fq.gz.gbi"
                     }
                 ]
             }
@@ -224,11 +224,11 @@
     "genome_resources__rnaseq__gene_bed": [
         {
             "class": "File",
-            "path": "../biodata/collections/hg38/rnaseq/ref-transcripts.bed"
+            "path": "gs://cromwell_test_bucket/biodata/collections/hg38/rnaseq/ref-transcripts.bed"
         },
         {
             "class": "File",
-            "path": "../biodata/collections/hg38/rnaseq/ref-transcripts.bed"
+            "path": "gs://cromwell_test_bucket/biodata/collections/hg38/rnaseq/ref-transcripts.bed"
         }
     ],
     "genome_resources__variation__cosmic": [
@@ -238,21 +238,21 @@
     "genome_resources__variation__dbsnp": [
         {
             "class": "File",
-            "path": "../biodata/collections/hg38/variation/dbsnp-150.vcf.gz",
+            "path": "gs://cromwell_test_bucket/biodata/collections/hg38/variation/dbsnp-150.vcf.gz",
             "secondaryFiles": [
                 {
                     "class": "File",
-                    "path": "../biodata/collections/hg38/variation/dbsnp-150.vcf.gz.tbi"
+                    "path": "gs://cromwell_test_bucket/biodata/collections/hg38/variation/dbsnp-150.vcf.gz.tbi"
                 }
             ]
         },
         {
             "class": "File",
-            "path": "../biodata/collections/hg38/variation/dbsnp-150.vcf.gz",
+            "path": "gs://cromwell_test_bucket/biodata/collections/hg38/variation/dbsnp-150.vcf.gz",
             "secondaryFiles": [
                 {
                     "class": "File",
-                    "path": "../biodata/collections/hg38/variation/dbsnp-150.vcf.gz.tbi"
+                    "path": "gs://cromwell_test_bucket/biodata/collections/hg38/variation/dbsnp-150.vcf.gz.tbi"
                 }
             ]
         }
@@ -264,21 +264,21 @@
     "genome_resources__variation__lcr": [
         {
             "class": "File",
-            "path": "../biodata/collections/hg38/coverage/problem_regions/repeats/LCR.bed.gz",
+            "path": "gs://cromwell_test_bucket/biodata/collections/hg38/coverage/problem_regions/repeats/LCR.bed.gz",
             "secondaryFiles": [
                 {
                     "class": "File",
-                    "path": "../biodata/collections/hg38/coverage/problem_regions/repeats/LCR.bed.gz.tbi"
+                    "path": "gs://cromwell_test_bucket/biodata/collections/hg38/coverage/problem_regions/repeats/LCR.bed.gz.tbi"
                 }
             ]
         },
         {
             "class": "File",
-            "path": "../biodata/collections/hg38/coverage/problem_regions/repeats/LCR.bed.gz",
+            "path": "gs://cromwell_test_bucket/biodata/collections/hg38/coverage/problem_regions/repeats/LCR.bed.gz",
             "secondaryFiles": [
                 {
                     "class": "File",
-                    "path": "../biodata/collections/hg38/coverage/problem_regions/repeats/LCR.bed.gz.tbi"
+                    "path": "gs://cromwell_test_bucket/biodata/collections/hg38/coverage/problem_regions/repeats/LCR.bed.gz.tbi"
                 }
             ]
         }
@@ -286,21 +286,21 @@
     "genome_resources__variation__polyx": [
         {
             "class": "File",
-            "path": "../biodata/collections/hg38/coverage/problem_regions/repeats/polyx.bed.gz",
+            "path": "gs://cromwell_test_bucket/biodata/collections/hg38/coverage/problem_regions/repeats/polyx.bed.gz",
             "secondaryFiles": [
                 {
                     "class": "File",
-                    "path": "../biodata/collections/hg38/coverage/problem_regions/repeats/polyx.bed.gz.tbi"
+                    "path": "gs://cromwell_test_bucket/biodata/collections/hg38/coverage/problem_regions/repeats/polyx.bed.gz.tbi"
                 }
             ]
         },
         {
             "class": "File",
-            "path": "../biodata/collections/hg38/coverage/problem_regions/repeats/polyx.bed.gz",
+            "path": "gs://cromwell_test_bucket/biodata/collections/hg38/coverage/problem_regions/repeats/polyx.bed.gz",
             "secondaryFiles": [
                 {
                     "class": "File",
-                    "path": "../biodata/collections/hg38/coverage/problem_regions/repeats/polyx.bed.gz.tbi"
+                    "path": "gs://cromwell_test_bucket/biodata/collections/hg38/coverage/problem_regions/repeats/polyx.bed.gz.tbi"
                 }
             ]
         }
@@ -316,29 +316,29 @@
     "reference__fasta__base": [
         {
             "class": "File",
-            "path": "../biodata/collections/hg38/seq/hg38.fa",
+            "path": "gs://cromwell_test_bucket/biodata/collections/hg38/seq/hg38.fa",
             "secondaryFiles": [
                 {
                     "class": "File",
-                    "path": "../biodata/collections/hg38/seq/hg38.fa.fai"
+                    "path": "gs://cromwell_test_bucket/biodata/collections/hg38/seq/hg38.fa.fai"
                 },
                 {
                     "class": "File",
-                    "path": "../biodata/collections/hg38/seq/hg38.dict"
+                    "path": "gs://cromwell_test_bucket/biodata/collections/hg38/seq/hg38.dict"
                 }
             ]
         },
         {
             "class": "File",
-            "path": "../biodata/collections/hg38/seq/hg38.fa",
+            "path": "gs://cromwell_test_bucket/biodata/collections/hg38/seq/hg38.fa",
             "secondaryFiles": [
                 {
                     "class": "File",
-                    "path": "../biodata/collections/hg38/seq/hg38.fa.fai"
+                    "path": "gs://cromwell_test_bucket/biodata/collections/hg38/seq/hg38.fa.fai"
                 },
                 {
                     "class": "File",
-                    "path": "../biodata/collections/hg38/seq/hg38.dict"
+                    "path": "gs://cromwell_test_bucket/biodata/collections/hg38/seq/hg38.dict"
                 }
             ]
         }
@@ -347,21 +347,21 @@
         [
             {
                 "class": "File",
-                "path": "../biodata/collections/hg38/coverage/problem_regions/repeats/LCR.bed.gz",
+                "path": "gs://cromwell_test_bucket/biodata/collections/hg38/coverage/problem_regions/repeats/LCR.bed.gz",
                 "secondaryFiles": [
                     {
                         "class": "File",
-                        "path": "../biodata/collections/hg38/coverage/problem_regions/repeats/LCR.bed.gz.tbi"
+                        "path": "gs://cromwell_test_bucket/biodata/collections/hg38/coverage/problem_regions/repeats/LCR.bed.gz.tbi"
                     }
                 ]
             },
             {
                 "class": "File",
-                "path": "../biodata/collections/hg38/coverage/problem_regions/repeats/polyx.bed.gz",
+                "path": "gs://cromwell_test_bucket/biodata/collections/hg38/coverage/problem_regions/repeats/polyx.bed.gz",
                 "secondaryFiles": [
                     {
                         "class": "File",
-                        "path": "../biodata/collections/hg38/coverage/problem_regions/repeats/polyx.bed.gz.tbi"
+                        "path": "gs://cromwell_test_bucket/biodata/collections/hg38/coverage/problem_regions/repeats/polyx.bed.gz.tbi"
                     }
                 ]
             }
@@ -369,21 +369,21 @@
         [
             {
                 "class": "File",
-                "path": "../biodata/collections/hg38/coverage/problem_regions/repeats/LCR.bed.gz",
+                "path": "gs://cromwell_test_bucket/biodata/collections/hg38/coverage/problem_regions/repeats/LCR.bed.gz",
                 "secondaryFiles": [
                     {
                         "class": "File",
-                        "path": "../biodata/collections/hg38/coverage/problem_regions/repeats/LCR.bed.gz.tbi"
+                        "path": "gs://cromwell_test_bucket/biodata/collections/hg38/coverage/problem_regions/repeats/LCR.bed.gz.tbi"
                     }
                 ]
             },
             {
                 "class": "File",
-                "path": "../biodata/collections/hg38/coverage/problem_regions/repeats/polyx.bed.gz",
+                "path": "gs://cromwell_test_bucket/biodata/collections/hg38/coverage/problem_regions/repeats/polyx.bed.gz",
                 "secondaryFiles": [
                     {
                         "class": "File",
-                        "path": "../biodata/collections/hg38/coverage/problem_regions/repeats/polyx.bed.gz.tbi"
+                        "path": "gs://cromwell_test_bucket/biodata/collections/hg38/coverage/problem_regions/repeats/polyx.bed.gz.tbi"
                     }
                 ]
             }
@@ -396,31 +396,31 @@
     "reference__rtg": [
         {
             "class": "File",
-            "path": "../biodata/collections/hg38/rtg--hg38.sdf-wf.tar.gz"
+            "path": "gs://cromwell_test_bucket/biodata/collections/hg38/rtg--hg38.sdf-wf.tar.gz"
         },
         {
             "class": "File",
-            "path": "../biodata/collections/hg38/rtg--hg38.sdf-wf.tar.gz"
+            "path": "gs://cromwell_test_bucket/biodata/collections/hg38/rtg--hg38.sdf-wf.tar.gz"
         }
     ],
     "reference__snpeff__GRCh38_86": [
         {
             "class": "File",
-            "path": "../biodata/collections/hg38/snpeff--GRCh38.86-wf.tar.gz"
+            "path": "gs://cromwell_test_bucket/biodata/collections/hg38/snpeff--GRCh38.86-wf.tar.gz"
         },
         {
             "class": "File",
-            "path": "../biodata/collections/hg38/snpeff--GRCh38.86-wf.tar.gz"
+            "path": "gs://cromwell_test_bucket/biodata/collections/hg38/snpeff--GRCh38.86-wf.tar.gz"
         }
     ],
     "reference__twobit": [
         {
             "class": "File",
-            "path": "../biodata/collections/hg38/ucsc/hg38.2bit"
+            "path": "gs://cromwell_test_bucket/biodata/collections/hg38/ucsc/hg38.2bit"
         },
         {
             "class": "File",
-            "path": "../biodata/collections/hg38/ucsc/hg38.2bit"
+            "path": "gs://cromwell_test_bucket/biodata/collections/hg38/ucsc/hg38.2bit"
         }
     ],
     "resources": [
